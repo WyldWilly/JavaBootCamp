@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="app.js"></script>
+	
+</head>
+	<body ng-app="app" ng-controller="MainController as main">
+		<h2>ToDo List</h2>
+		<ul>
+			<li ng-repeat="task in main.tasks">
+				<input type="checkbox" ng-model="task.done" /> {{task.name}}
+			</li>		
+		</ul>
+	</body>
+</html>

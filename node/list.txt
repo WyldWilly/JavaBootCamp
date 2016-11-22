@@ -1,0 +1,4 @@
+total 1
+-rw-r--r--    1 costanti Administ      603 Nov 22 16:52 fileio.js
+-rw-r--r--    1 costanti Administ        0 Nov 22 17:00 list.txt
+-rw-r--r--    1 costanti Administ      382 Nov 22 16:25 main.js

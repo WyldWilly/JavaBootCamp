@@ -1,25 +1,25 @@
 angular.module('app', []).controller("MainController", function() {
 
-	this.people = [
+	this.items = [
 		{
-			name: "John Doe",
-			phone: "555-1111"
+			name: "Book",
+			price: "5.95"
 		},
 		{
-			name: "Bill Smith",
-			phone: "555-2222"
+			name: "Mint",
+			price: ".15"
 		},	
 		{
-			name: "Mary Jones",
-			phone: "555-3333"
+			name: "Printer",
+			price: "240"
 		},
 		{
-			name: "Jane Doe",
-			phone: "555-1111"
+			name: "Thing",
+			price: ""
 		},
 		{
-			name: "Ted Jones",
-			phone: "555-3333"
+			name: "Wisdom",
+			price: "Priceless"
 		},		
 	];
 });
